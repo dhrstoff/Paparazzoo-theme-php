@@ -35,7 +35,7 @@ img {
 
 p, li, a {
     font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .btn-primary {
@@ -61,7 +61,7 @@ p, li, a {
     text-decoration: underline;
 }
 
-.kembe-header { 
+.kembe-header {
     background-repeat: no-repeat;
     background-position: center center fixed;
     -webkit-background-size: cover;
@@ -190,6 +190,7 @@ ul.icon-list i {
 .vertical-text {
     transform: rotate(180deg);
     writing-mode: vertical-lr;
+    -ms-writing-mode: bt-lr;
 }
 
 .blog-container {
@@ -207,8 +208,9 @@ ul.icon-list i {
     font-size: 1.5em;
     margin-left: -40px;
     left: 0;
-    text-align: right;
     position: absolute;
+    text-align: right;
+    top: 0;
 }
 
 .blog-post-image-container {
@@ -247,7 +249,7 @@ ul.icon-list i {
 .blog-post-image-container h3 {
     position: absolute;
     bottom: 0;
-    padding: 1rem 0.5rem;
+    padding: 1rem;
     color: #fff;
     width: 100%;
 }
@@ -309,6 +311,10 @@ ul.icon-list i {
         margin-left: 0;
         position: relative;
         writing-mode: initial;
+    }
+
+    .blog-post-image-container {
+        margin: 0;
     }
 
 }

@@ -1,0 +1,9 @@
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: $primary-hover;
+    border-color: $primary-hover;
+}

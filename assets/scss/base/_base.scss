@@ -1,0 +1,14 @@
+.no-select {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.vertical-text {
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    -ms-writing-mode: bt-lr;
+}

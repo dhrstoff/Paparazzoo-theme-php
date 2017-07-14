@@ -1,0 +1,36 @@
+.kembe-box {
+    margin-bottom: 30px;
+
+    &.colored-bg a{
+        color: $white;
+        text-decoration: underline;
+    }
+}
+
+.kembe-box-body {
+    padding: 2em 1.5em;
+}
+
+.colored-bg {
+    color: $white;
+}
+
+.dark-green-bg {
+    background-color: #33691E;
+    color: $white;
+}
+
+.red-bg {
+    background-color: #F44336;
+    color: $white;
+}
+
+.indigo-bg {
+    background-color: #3F51B5;
+    color: $white;
+}
+
+.light-green-bg {
+    background-color: $primary;
+    color: $white;
+}

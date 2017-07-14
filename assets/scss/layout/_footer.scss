@@ -1,0 +1,15 @@
+.kembe-footer {
+    background-color: $primary;
+    bottom: 0;
+    color: $white;
+    height: 5rem;
+    padding: 2rem 0;
+    position: absolute;
+    width: 100%;
+
+    p, a {
+        color: $white;
+        margin: 0;
+        font-size: 1rem
+    }
+}

@@ -1,0 +1,21 @@
+.navigation-container {
+    background-color: $primary;
+    margin-bottom: 2rem;
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li{
+            float: left;
+            padding: 1rem 2rem 1rem 0;
+            font-family: 'Oswald', sans-serif;
+
+            a {
+                color: $white;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}

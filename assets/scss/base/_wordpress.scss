@@ -1,0 +1,38 @@
+img {
+    &.size-medium {
+        float: left;
+        margin-right: 1rem;
+        width: 50%;
+
+        @include mobile {
+            width:100%;
+        }
+    }
+
+    &.size-thumbnail {
+        float:left;
+        margin-right: 1rem;
+        width: 25%;
+
+        @include tablet {
+            width:50%;
+        }
+
+        @include mobile {
+            width:100%;
+        }
+    }
+
+    &.alignright{
+        float:right;
+
+        &.size-medium, &.size-thumbnail {
+            margin-left: 1rem;
+            margin-right: 0;
+        }
+    }
+
+    &.size-large {
+        width:100%;
+    }
+}

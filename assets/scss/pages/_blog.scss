@@ -29,6 +29,13 @@
 
 .blog-post-body {
     margin: 0 0 2em 0;
+
+    h1, h2, h3, h4, h5, h6 {
+        display: inline-block;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+        width: 100%;
+    }
 }
 
 .blog-post-image-container {
@@ -47,10 +54,6 @@
         color: $white;
         width: 100%;
     }
-}
-
-.blog-post-image-container-homepage {
-    min-height: 250px;
 }
 
 .blog-post-image {

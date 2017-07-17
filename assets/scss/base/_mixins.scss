@@ -4,11 +4,12 @@
   border-radius:$radius;
 }
 
-$tablet-width: 768px;
-$desktop-width: 1024px;
 
+$desktop-width: 1024px;
+$tablet-width: 768px;
+$mobile-width: 767px;
 @mixin mobile {
-  @media (max-width: #{$tablet-width -1}) {
+  @media (max-width: #{$mobile-width}) {
     @content;
   }
 }

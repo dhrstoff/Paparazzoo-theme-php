@@ -7,7 +7,17 @@
         <span class="text-center no-select"><?php the_field('tagline'); ?></span>
     </div>
 </div>
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="kembe-box homepage-signup">
+                <ul class="side-bar">
+                    <?php get_sidebar('sidebar-1'); ?>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container">
     <div class="row">
         <div class="col-md-12 col-lg-8">
@@ -39,11 +49,6 @@
                 <?php endif; ?>
 
                 <div class="col-md-6 col-lg-12">
-                    <div class="kembe-box">
-                        <ul class="side-bar">
-                            <?php get_sidebar('sidebar-1'); ?>
-                        </ul>
-                    </div>
                     <div class="kembe-box colored-bg" style="background-color: <?php the_field('latest_rulebook_background_color'); ?>">
                         <div class="kembe-box-body">
                             <h2>Rulebook</h2>
@@ -66,7 +71,7 @@
 </div>
 <div class="container">
     <?php
-    $args = array( 
+    $args = array(
         'post_type' => 'post',
         'post_status' => 'publish',
         'posts_per_page' => '2'

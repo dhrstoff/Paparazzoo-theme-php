@@ -39,12 +39,15 @@
     font-size: 22vw;
     line-height: normal;
     margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    z-index: 1001;
 }
 
 .homepage-top span{
     max-width: 60vw;
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
+    z-index: 1001;
 }
 
 .homepage-signup {
@@ -66,5 +69,9 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 150px;
+    width: 33vh;
+    z-index: 1000;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
 }

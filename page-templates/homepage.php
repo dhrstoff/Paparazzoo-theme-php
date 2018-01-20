@@ -1,6 +1,7 @@
 <?php get_header(); /* Template Name: Homepage */ ?>
 
 <div class="homepage-top">
+    <img id="kickstarter-coming-soon" src="assets/img/kickstaterComingSoon.png"/>
     <div class="homepage-massive-image" style="background-image: url(' <?php the_field('banner_image') ?> ')"></div>
     <div class="d-flex justify-content-center align-items-center flex-column">
         <h1 class="text-center no-select">Paparazzoo</h1>

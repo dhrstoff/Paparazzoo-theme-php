@@ -12,4 +12,22 @@
         margin: 0;
         font-size: 1rem
     }
+
+    .footer-social-icons {
+        a {
+            margin-left: 10px;
+        }
+
+        .fa-facebook-official:hover {
+            color: $facebook;
+        }
+
+        .fa-instagram:hover {
+            color: $instagram;
+        }
+
+        .fa-twitter-square:hover {
+            color: $twitter;
+        }
+    }
 }

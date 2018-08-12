@@ -1,8 +1,13 @@
 <div class="kembe-footer">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p class="text-center">Kembe Games 2017 - <a href="mailto:contact@kembegames.com">contact@kembegames.com</a></p>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p>Kembe Games 2017 - <a href="mailto:contact@kembegames.com">contact@kembegames.com</a></p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end footer-social-icons">
+                <a title="Kembe games Facebook" href="https://www.facebook.com/KembeGames/" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                <a title="Paparazzoo Instagram" href="https://www.instagram.com/paparazzoothegame/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                <a title="Paparazzoo Twitter" href="https://twitter.com/paparazzoogame" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>

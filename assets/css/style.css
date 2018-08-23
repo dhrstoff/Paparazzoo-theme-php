@@ -81,7 +81,7 @@ img.size-large {
   background-color: #8BC34A;
   bottom: 0;
   color: #fff;
-  height: 5rem;
+  min-height: 5rem;
   padding: 2rem 0;
   position: absolute;
   width: 100%; }
@@ -304,7 +304,7 @@ ul.icon-list {
   position: absolute;
   right: 50px;
   top: 0;
-  width: 33vh;
+  width: 25vh;
   z-index: 1000;
   -ms-transform: rotate(20deg);
   -webkit-transform: rotate(20deg);

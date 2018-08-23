@@ -8,6 +8,25 @@
         <span class="text-center no-select"><?php the_field('tagline'); ?></span>
     </div>
 </div>
+<div class="navigation-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav-bar">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/blog">Blog</a>
+                    </li>
+                    <li>
+                        <a href="/kickstarter-hoe-werkt-dat">Kickstarter (dutch)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container">
     <div class="row">
         <div class="col-md-12">

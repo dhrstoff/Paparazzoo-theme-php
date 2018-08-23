@@ -1,7 +1,6 @@
 .homepage-top {
     color:$white;
-    height: 90vh;
-    margin-bottom: 30px;
+    height: 85vh;
     position: relative;
     width: 100%;
 }
@@ -74,4 +73,10 @@
     -ms-transform: rotate(20deg);
     -webkit-transform: rotate(20deg);
     transform: rotate(20deg);
+
+    @include mobile {
+        right: 0;
+        width: 40vw;
+    }
+
 }

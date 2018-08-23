@@ -7,6 +7,11 @@
     position: absolute;
     width: 100%;
 
+    @include mobile {
+        position: relative;
+        padding: 1rem 0;
+    }
+
     p, a {
         color: $white;
         margin: 0;
@@ -14,6 +19,10 @@
     }
 
     .footer-social-icons {
+        @include mobile {
+            margin-top: 10px;
+        }
+
         a {
             margin-left: 10px;
         }

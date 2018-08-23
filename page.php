@@ -12,6 +12,9 @@
                         <a href="/blog">Blog</a>
                     </li>
                     <li>
+                        <a href="/kickstarter">Kickstarter</a>
+                    </li>
+                    <li>
                         <a href="/kickstarter-hoe-werkt-dat">Kickstarter (dutch)</a>
                     </li>
                 </ul>

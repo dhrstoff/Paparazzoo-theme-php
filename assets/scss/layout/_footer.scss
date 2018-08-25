@@ -1,9 +1,10 @@
 .kembe-footer {
+    align-items: center;
     background-color: $primary;
     bottom: 0;
     color: $white;
+    display: flex;
     min-height: 5rem;
-    padding: 2rem 0;
     position: absolute;
     width: 100%;
 

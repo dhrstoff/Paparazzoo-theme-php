@@ -9,26 +9,7 @@
     </div>
 </div>
 <div class="navigation-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="nav-bar">
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
-                    <li>
-                        <a href="/blog">Blog</a>
-                    </li>
-                    <li>
-                        <a href="/kickstarter">Kickstarter</a>
-                    </li>
-                    <li>
-                        <a href="/kickstarter-hoe-werkt-dat">Kickstarter (dutch)</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <?php wp_nav_menu(array( 'menu_class' => 'nav-bar', 'container_class' => 'container' )); ?> 
 </div>
 <div class="container">
     <div class="row">
@@ -47,7 +28,7 @@
             <?php if( get_field('pitch') ): ?>
                 <div class="kembe-box colored-bg" style="background-color: <?php the_field('pitch_background_color'); ?>">
                     <div class="kembe-box-body">
-                        <?php the_field('pitch'); ?>
+                        <p><?php the_field('pitch'); ?></p>
                     </div>
                 </div>
             <?php endif; ?>
@@ -60,10 +41,8 @@
                             <div class="kembe-box-body">
                                 <h2>Specs</h2>
                                 <ul class="icon-list">
-
                                     <?php while ( have_rows('specs') ) : the_row(); ?>
                                         <li><?php the_sub_field('icon'); ?> <span><?php the_sub_field('text'); ?></span></li>
-
                                     <?php endwhile; ?>
                                 </ul>
                             </div>

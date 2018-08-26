@@ -1,28 +1,8 @@
 <?php get_header(); ?>
 
 <div class="navigation-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="nav-bar">
-                    <li>
-                        <a href="/">Home</a>
-                    </li>
-                    <li>
-                        <a href="/blog">Blog</a>
-                    </li>
-                    <li>
-                        <a href="/kickstarter">Kickstarter</a>
-                    </li>
-                    <li>
-                        <a href="/kickstarter-hoe-werkt-dat">Kickstarter (dutch)</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    <?php wp_nav_menu(array( 'menu_class' => 'nav-bar', 'container_class' => 'container' )); ?> 
 </div>
-
 <?php if ( have_posts() ) : ?>
     <div class="container">
         <div class="row">

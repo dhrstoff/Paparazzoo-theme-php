@@ -1,8 +1,8 @@
-<?php
-/*
-Template Name: Blog Page
-*/
-get_header(); ?>
+<?php get_header(); /* Template Name: Blog Page */ ?>
+
+<div class="navigation-container">
+    <?php wp_nav_menu(array( 'menu_class' => 'nav-bar', 'container_class' => 'container' )); ?> 
+</div>
     <div class="row content">
         <div class="col-md-4">
             <div class="panel panel-default">

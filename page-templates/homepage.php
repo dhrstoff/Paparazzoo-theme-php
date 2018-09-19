@@ -1,11 +1,11 @@
 <?php get_header(); /* Template Name: Homepage */ ?>
 
 <div class="homepage-top">
-    <img id="kickstarter-coming-soon" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/img/kickstarterSeptember4th.png"/>
     <div class="homepage-massive-image" style="background-image: url(' <?php the_field('banner_image') ?> ')"></div>
     <div class="d-flex justify-content-center align-items-center flex-column">
         <h1 class="text-center no-select">Paparazzoo</h1>
         <span class="text-center no-select"><?php the_field('tagline'); ?></span>
+        <a href="https://www.kickstarter.com/projects/183353807/paparazzoo" target="_blank"><img id="kickstarter-now-live" width="300px" height="163px" src="<?php echo get_bloginfo( 'template_directory' ); ?>/assets/img/kickstarterBackNow.png"/></a>
     </div>
 </div>
 <div class="navigation-container">

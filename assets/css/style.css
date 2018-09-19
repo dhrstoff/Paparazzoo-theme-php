@@ -318,5 +318,10 @@ ul.icon-list {
       right: 0;
       width: 40vw; } }
 
+#kickstarter-now-live {
+  margin-top: 2rem;
+  height: auto;
+  width: 300px; }
+
 .fourzerofour {
   margin-top: 100px; }
